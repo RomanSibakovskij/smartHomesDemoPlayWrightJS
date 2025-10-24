@@ -1,0 +1,14 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Ignore all .png files in the screenshots folder
+/src/tests/screenshots/*.png
+
+# Ignore all .png files under src/tests/screenshotsand all its subfolders
+/src/tests/screenshots/**/*.png
